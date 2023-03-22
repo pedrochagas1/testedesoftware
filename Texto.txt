@@ -1,0 +1,94 @@
+
+
+Get - Visualizar
+Post - Criar
+PUT/PATCH - editar
+Delete - Apagar
+
+
+
+Site de Erros:
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
+
+
+Unidade:
+
+function teste(p){
+    p++;
+    func2(p);
+}
+
+MDN Mozilla - javascript
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+                               CONCEITOS BÁSICOS
+
+
+Técnicas:
+caixa branca - estrutural ou orientada a logica temos acesso ao codigo
+
+caixa preta - é um teste de software para verificar a saida dos dados usando entradas de varios tipos. Tais entradas nao sao escolhidas conforme a estrutura do progama
+
+caixa cinza - É uma misto dos testes de caixa branca e preta, porem nem senore se faz necessario
+
+
+Locais de testes
+
+Alpha - dentro da propria empresa
+Beta - Alguns clientes especificos 
+Canary - Em produção porém não foi divulgado.
+Gama - Liberado ao publico, porem o mesmo não foi totalmente testado e contem inumeros erros que serão resolvidos conforme os usuarios vão encontrando.
+
+
+Teste de software não elimina todos os defeitos do mesmo.
+Não existe software sem erros.
+
+
+let x = 2;
+
+function teste(p){
+    let y= "3";
+    r = p+y;
+    console.log(r)
+    func2(r);
+}
+
+function func2(r){ 
+    console.log(r)
+    r++;
+    document.write(r);
+}
+
+teste(x);
+
+
+
+
+
+
+
+
+
+document.querySelector('btn').addEventListener("click", function clickBtn() {
+    alert("Botão clicado com sucesso.");
+  });
+
+Erros do código
+
+
+O código detem um erro de aspas na linha 7(alert).
+Não está padronizados o uso de aspas duplas e simples.
+Não precisa do nome na função
+
+
+
+
+Botão ABRIR abre a página para o lado
+Botão sing up não encaminha para a página de cadastro
+Os links não funcionam
+link back não rola a página para o lado
+
